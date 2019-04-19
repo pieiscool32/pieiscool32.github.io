@@ -1,0 +1,1 @@
+This is my blog based off of the [jekyll-now](https://github.com/barryclark/jekyll-now) project

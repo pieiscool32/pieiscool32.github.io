@@ -3,16 +3,29 @@ layout: post
 title: My First Post
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit!
+Hey look, a blog.
 
-<amp-img width="600" height="500" layout="responsive" src="http://lorempixel.com/600/500/transport"></amp-img>
 
-Nulla dapibus vestibulum ligula in sodales. Phasellus eu metus quam. Sed id varius diam. Morbi pellentesque lorem vitae ex commodo, sed dapibus ex dignissim. Etiam facilisis pellentesque gravida. Sed tempus diam sed odio tempor, tristique elementum erat condimentum. Ut volutpat dui ex, a auctor dolor pretium eget.
+The point of this blog is to give me a way to talk about anything I think is cool or want to rant about for a bit without bothering people in person.
 
-Vivamus nec mauris suscipit enim viverra tristique ut eget risus. Vestibulum ullamcorper at sem eu sodales. Praesent felis tellus, condimentum vitae purus id, consectetur interdum urna. Pellentesque laoreet non arcu volutpat euismod. Suspendisse sed enim non ex interdum sodales. Quisque vitae vestibulum turpis. Aenean nec est dolor.
+A large potion of this blog will be dedicated to tech topics, but travel guides and credit card rambles as featured on [the points guy](https://www.thepointsguy.com) are also fair game. While I don't travel every week to luxury destinations, I do travel about once a quarter currently and have opinions that I'll randomly toss into blog posts.
 
-> Pellentesque quis mi at erat iaculis cursus. Phasellus ligula neque, pulvinar sed malesuada id, feugiat ac magna. Proin sed scelerisque metus. Pellentesque mi augue, egestas nec ante a, faucibus ullamcorper enim. Sed nisi felis, rutrum imperdiet aliquam nec, placerat vel odio. Nulla quis urna ut risus aliquam tempor.
+But Chris, I hear you say, "why would I bother reading your incoherent ramblings when I could just read TPG or some other tech blog?" To you dear reader, I have no answer for you.
 
-<amp-img width="600" height="300" layout="responsive" src="http://lorempixel.com/600/300/transport"></amp-img>
+### Background
 
-Nulla mi risus, lobortis quis lectus vel, gravida eleifend lacus. Proin mattis odio elit, nec vehicula diam varius vitae. Nunc a ipsum at justo rhoncus mattis. Proin auctor lorem quis libero viverra aliquam. Suspendisse quis tristique sapien. Integer eu felis vel orci dignissim suscipit pharetra vitae nisl. Ut viverra sed enim quis pretium. Etiam auctor a ante sed pharetra.
+A little bit about the basics of this blog as it stands today. I borrowed the boilerplate and basic template from [amplify](https://github.com/ageitgey/amplify) which brings AMP to Jekyll and therefore lets me write a blog using git on [GitHub](https://github.com/pieiscool32/pieiscool32.github.io). I spent a lot of time debating the best way to go about writing this blog and finally decided that since I am a developer I will use a solution you won't find when searching for "how to start a blog" on Google.
+
+<amp-img width="600" height="300" layout="responsive" src="https://imgs.xkcd.com/comics/real_programmers.png" alt="Image from XKCD about 'real' developers" attribution="From https://xkcd.com/378/"></amp-img>
+
+I landed on Jekyll specifically because it gave me what I wanted, a way to write a blog in any arbitrary text editor on any device that can use git. Hosting it on GitHub was an easy choice after that as they graciously let me or any user of github host a page for free.
+
+Also, having a blog be git based as well as hosted using custom themes allows me to do things that are just not possible with things like WordPress or Medium. For example, the bottom of this page originally had a Twitter link, but I don't use Twitter, so I just made one for my [LinkedIn](https://linkedin.com/in/cmunte132) instead and it took me about 2 minutes to source a suitable logo and plop it in to replace the Twitter one.
+
+Another benefit is that I don't have to rely on whatever shitty web-editor that these sites make, I can write in anything that supports markdown. The net result here is a ton of flexibility and convenience, making it more likely that I will stick to this and make sure the site looks good.
+
+### The Future
+
+As for the future of the blog itself, only time can tell. My goal is to write at least one article a week about whatever topic crosses my mind or piques my interest. I don't plan to write many introspective articles like this, but I make no promises.
+
+I also don't plan to really advertise this blog, more just leave it for future employers or bored internet users to stumble across. 

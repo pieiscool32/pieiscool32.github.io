@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My New Post
+title: My First Post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit!

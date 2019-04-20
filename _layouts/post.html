@@ -10,22 +10,15 @@ layout: default
     <section class="post-content">
       <a name="topofpage"></a>
       {{content}}
-      <!--
-      <div id="disqus_thread"></div>
-      <script>
-          var disqus_config = function () {
-              this.page.url = `{{ site.url }}{{ page.id }}`;
-              this.page.identifier = `{{ site.url }}{{ page.id }}`;
-          };
-          (function() {
-              var d = document, s = d.createElement('script');
-              s.src = 'https://blog-munte.disqus.com/embed.js';
-              s.setAttribute('data-timestamp', +new Date());
-              (d.head || d.body).appendChild(s);
-          })();
-      </script>
+      <amp-iframe width=600 height=140
+        layout="responsive"
+        sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
+        resizable
+        src="https://amp.munte.me/disqus#{{ page.id }}">
+        <amp-img layout="fill" src="https://c.disquscdn.com/next/1c57e77/marketing/assets/img/brand/disqus-logo-blue-transparent.png" placeholder></amp-img>
+        <div overflow tabindex="0"></div>
+      </amp-iframe>
       <noscript>Please enable JavaScript to view the comments<a href="https://disqus.com/?ref_noscript">powered by Disqus.</a></noscript>
-      -->
     </section>
     <footer class="post-footer">
       <section class="share">

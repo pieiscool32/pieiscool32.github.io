@@ -1,4 +1,4 @@
-# A Blog by Me thnaks to Amplify for Jekyll
+# A Blog by Me thanks to Amplify for Jekyll
 
 *A Jekyll html theme in the vague style of Medium.com built using Google AMP*
 

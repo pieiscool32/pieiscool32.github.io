@@ -10,15 +10,16 @@ layout: default
     <section class="post-content">
       <a name="topofpage"></a>
       {{content}}
-      <amp-iframe width=600 height=140
+      <amp-iframe width=600 height=200
         layout="responsive"
         sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
         resizable
+        seamless
         src="https://amp.munte.me/disqus#{{ site.url }}{{ page.id }}">
         <amp-img layout="fill" src="https://c.disquscdn.com/next/1c57e77/marketing/assets/img/brand/disqus-logo-blue-transparent.png" placeholder></amp-img>
-        <div overflow tabindex="0"></div>
+        <div overflow tabindex=0 role=button aria-label="Read more">Read more...</div>
       </amp-iframe>
-      <noscript>Please enable JavaScript to view the comments<a href="https://disqus.com/?ref_noscript">powered by Disqus.</a></noscript>
+      <noscript>Please enable JavaScript to view the comments <a href="https://disqus.com/?ref_noscript">powered by Disqus.</a></noscript>
     </section>
     <footer class="post-footer">
       <section class="share">

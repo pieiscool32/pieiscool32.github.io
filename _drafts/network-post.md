@@ -5,6 +5,8 @@ title: Enterprise Grade Home Networking
 
 Most people would consider 'home networking' to be comprised of the combo unit that your ISP provided you and a WiFi extender for that one room that is a deadzone otherwise. Not me.
 
+Just for the sake of disclosure, *nobody paid me to write this* and *I am not putting in any referral links*. I just want to spread the word for a product I really like using.
+
 ### Networking 101
 
 Before I dive into the intricacies of this topic and my home setup, I want to cover the basic concepts you'll need to know in order to understand what follows. 
@@ -31,6 +33,26 @@ A switch is very easy to spot on a combo unit, as it us usually a brightly color
 
 A [wireless access point](https://en.wikipedia.org/wiki/Wireless_access_point) (AP) communicates over WiFi to your wireless devices such as a phone. This AP can be a separate device, but for most people it happens to live inside of that combo box from before. Usually, the AP part of a combo unit can be spotted by the antennas sticking out of the box.
 
+### Setup
+
 <amp-img width="800" height="320" layout="responsive" src="/assets/network-post/all-good.jpg" alt="A screenshot of my Unifi dashboard"></amp-img>
 
-I decided to go with [Unifi](https://unifi-sdn.ui.com) by [Ubiquiti](https://www.ui.com) as their products are reasonably, and even competitively, priced as compared to similar solutions. Seeing as I live in a generic suburban home with two floors and a basement, having just one AP would not cover the house perfectly.
+I decided to go with [Unifi](https://unifi-sdn.ui.com) by [Ubiquiti](https://www.ui.com) as their products are reasonably, and even competitively, priced as compared to similar solutions. Seeing as I live in a generic suburban home with two floors and a basement, having just one typical AP would not cover the house perfectly. Thanks to the fact that most Unifi APs are ceiling or wall mountable, I can put just one in the ceiling on the second floor near the middle of the house and get full bars everywhere.
+
+People have suggested I get a mesh network system like [eero](https://eero.com) or the [Google Wifi](https://store.google.com/us/product/google_wifi?hl=en-US) I would be spending more and not have access to the powerful features of the Unifi SDN. The barebones setup of a USG and AP AC Lite is $210 or cheaper if Amazon has a small sale. 
+
+<amp-img width="620" height="130" layout="responsive" src="/assets/network-post/gear.jpg" alt="A screenshot of the unifi gear I have"></amp-img>
+
+While I have 3 things from unifi (USG, AP AC Lite, and a switch), you can get away with just and AP if you want to upgrade from the AP inside of a combo box like I did at first. I would recommend the approach I took, which is to start off with just an AP and slowly introduce more products as you see fit. This is especially helpful if you are not too comfortable with networking as any existing setup would remain in place until you are ready to transition over to the new AP.
+
+That being said, The biggest hurtle for most people is going to be the Unifi Security Gateway (USG) which is primarily a router and firewall combo unit. Correctly replacing an existing combo unit with a router is not always an easy task. That being said, for a simple network they make the setup pretty straightforward.
+
+Another thing that most turn most people away from an enterprise setup like Unifi is the fact that their controller software needs to be used to set it all up. Ideally, the controller would run 24/7, but you can technically only run it once to get the network setup and never use it again.
+
+<amp-img width="800" height="320" layout="responsive" src="/assets/network-post/docker.jpg" alt="A screenshot of the unifi controller running in docker"></amp-img>
+
+I have the software installed on a docker container that runs on my Synology. The benefit of leaving the controller on all the time is the data collection and being able to quickly diagnose any problems that may arise. I like to occasionally open up the app and see what the status of all the clients are or see what the network load looks like.
+
+<amp-img width="800" height="206" layout="responsive" src="/assets/network-post/status.jpg" alt="A screenshot of the basic network status"></amp-img>
+
+The Deep Packet Inspection (DPI) that the USG does is also a wonderful feature. You can see the type of data being sent 

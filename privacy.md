@@ -13,3 +13,5 @@ I am not going to sell any of the information collected by these websites and I 
 Please see the Privacy statements of these companies if you are concerned or use tracking blockers. (I don't mind)
 
 I also will never put ads on this site. The only reason I use Google Analytics is to see how many people are looking at the site and how long they spend on it.
+
+Also, all of the advertising and audience analytics on Google Analytics is disabled and will never be enabled because I do not care about who is viewing the site.

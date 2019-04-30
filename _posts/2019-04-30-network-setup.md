@@ -24,13 +24,13 @@ The colloquial 'router' is actually a router, switch, and wireless access point 
 
 #### Switch
 
-A [network switch](https://en.wikipedia.org/wiki/Network_switch) switches packets from one port to the other, usually with some clever tactics. Generally speaking, a switch does not understand much about the network, it just knows that each port goes to certain [mac addresses](https://en.wikipedia.org/wiki/MAC_address) (think device ID) and that packets that ask to go to that device should go on a certain port to get there.
+A [network switch](https://en.wikipedia.org/wiki/Network_switch) switches packets from one port to the other, usually with some clever tactics. Generally speaking, a switch does not understand much about the network, it just knows that each port goes to certain [mac addresses](https://en.wikipedia.org/wiki/MAC_address). (think device ID) Packets that ask to go to a certain device should go on a certain port to get there.
 
 A switch is very easy to spot on a combo unit, as it us usually a brightly colored strip of ethernet ports. Most combo units obfuscate the router behind these ports, so they are usually label as [Local Area Network](https://en.wikipedia.org/wiki/Local_area_network) (LAN) ports. Meaning any device you plug in one port can talk to another device in a different port.
 
 #### Wireless Access Point (AP)
 
-A [wireless access point](https://en.wikipedia.org/wiki/Wireless_access_point) (AP) communicates over WiFi to your wireless devices such as a phone. This AP can be a separate device, but for most people it happens to live inside of that combo box from before. Usually, the AP part of a combo unit can be spotted by the antennas sticking out of the box.
+A [wireless access point](https://en.wikipedia.org/wiki/Wireless_access_point) (AP) communicates over [WiFi](https://en.wikipedia.org/wiki/Wi-Fi) to your wireless devices, such as a phone. This AP can be a separate device, but for most people it happens to live inside of that combo box from before. Usually, the AP part of a combo unit can be spotted by the antennas sticking out of the box.
 
 #### DHCP
 
@@ -62,7 +62,7 @@ The SDN software is pretty straightforward and intuitive as long as you have som
 
 <amp-img width="800" height="320" layout="responsive" src="/assets/network-post/docker.jpg" alt="A screenshot of the unifi controller running in docker"></amp-img>
 
-Shortly after I got the USG, I also got a [Synology NAS](https://www.synology.com/en-us) and moved the controller from the Pi. (which now runs [pi-hole](https://pi-hole.net)) Which helped improve performance and reduced the risk of SD card death.
+Shortly after I got the USG, I also got a [Synology NAS](https://www.synology.com/en-us) and moved the controller from the Pi. (which now runs [pi-hole](https://pi-hole.net)) The transfer helped improve performance and reduced the risk of SD card death destroying my setup completely.
 
 Finally, I went and got the switch to live in the basement where the house ethernet runs converge. This allows me to better monitor traffic as it goes throughout the house and provides power to the AP.
 

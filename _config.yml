@@ -4,9 +4,9 @@ email: mail@munte.me
 description: >
   Where I talk about nonsense that is sometimes coherent.
 logo: "/assets/images/logo.jpg"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.munte.me" # the base hostname & protocol for your site
-paginate: 5 # The number of posts to show per page on your homepage
+baseurl: ""
+url: "https://blog.munte.me"
+paginate: 5
 
 name: 'Christian Munte'
 bio: >
@@ -27,7 +27,7 @@ kramdown:
   input: GFM
   parse_block_html: true
 
-gems:
+plugins:
   - jekyll-paginate
 
 # Exclude these files from your production _site

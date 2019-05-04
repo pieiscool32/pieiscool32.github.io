@@ -5,7 +5,6 @@ title: Hello World
 
 Hey look, a blog.
 
-
 The point of this blog is to give me a way to talk about anything I think is cool or want to rant about for a bit without bothering people in person.
 
 A large potion of this blog will be dedicated to tech topics, but travel guides and credit card rambles as featured on [the points guy](https://www.thepointsguy.com) are also fair game. While I don't travel every week to luxury destinations, I do travel about once a quarter currently and have opinions that I'll randomly toss into blog posts.

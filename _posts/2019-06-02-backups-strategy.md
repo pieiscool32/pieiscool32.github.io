@@ -9,7 +9,7 @@ TLDR: Just backup your data. No excuses.
 
 ### Why?
 
-Imagine you dropped your phone and now it is a complete loss, what data would you lose? Your answer should be nothing,
+Imagine you dropped your phone and now it is a complete loss, what data would you lose? Your answer should be nothing
 or almost nothing. This might be a hypothetical situation, but there is always the possibility that something goes
 wrong and a device ends up broken or dead. The idea is that you could purposefully hit your phone with a sledgehammer
 and the only thing you lost is lots of money. Nobody wants to go on a lovely vacation or take pictures of a loved one

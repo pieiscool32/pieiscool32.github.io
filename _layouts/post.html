@@ -11,14 +11,7 @@ layout: default
     <section class="post-content">
       <a name="topofpage"></a>
       {{content}}
-      <amp-iframe width=600 height=140
-        layout="responsive"
-        sandbox="allow-scripts allow-same-origin allow-modals allow-popups allow-forms"
-        resizable
-        seamless
-        src="https://amp.munte.me/utterances">
-        <div overflow tabindex=0 role=button aria-label="Read more">Read more...</div>
-      </amp-iframe>
+      <amp-script layout="container" src="https://blog.munte.me/utterances.js"></amp-script>
       <noscript>Please enable JavaScript to view the comments <a href="https://utteranc.es">powered by Utterences.</a></noscript>
     </section>
     <footer class="post-footer">

@@ -1,13 +1,37 @@
-<script>
-(function(f, a, t, h, o, m){
-    a[h]=a[h]||function(){
-        (a[h].q=a[h].q||[]).push(arguments)
-    };
-    o=f.createElement('script'),
-    m=f.getElementsByTagName('script')[0];
-    o.async=1; o.src=t; o.id='fathom-script';
-    m.parentNode.insertBefore(o,m)
-})(document, window, '//fathom.munte.me/tracker.js', 'fathom');
-fathom('set', 'siteId', 'UFKDS');
-fathom('trackPageview');
-</script>
+<amp-user-notification
+  layout="nodisplay"
+  id="user-consent">
+  This site uses cookies,
+  <a href="/privacy">learn more.</a>
+  <button on="tap:user-consent.dismiss">I accept</button>
+</amp-user-notification>
+
+<amp-analytics data-credentials="include" config="https://fathom.munte.me/analytics.json" data-consent-notification-id="user-consent">
+  <script type="application/json">
+    {
+      "vars": {
+        "siteId": "UFKDS",
+        "pageViewId": "PAGE_VIEW_ID_64"
+      },
+      "requests": {
+        "pageview": "https://fathom.munte.me/collect?p=${canonicalPath}&h=${canonicalHostname}&r=''&u=${isUnique}&nv=${isNewVisitor}&ns=${isNewSession}&id=${pageViewId}&sid=${siteId}&pid=${previousId}"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      },
+      "transport": {
+        "beacon": false,
+        "xhrpost": false,
+        "image": true
+      },
+      "cookies": {
+        "_fathom": {
+          "value": "PAGE_VIEW_ID_64"
+        }
+      }
+    }
+  </script>
+</amp-analytics>

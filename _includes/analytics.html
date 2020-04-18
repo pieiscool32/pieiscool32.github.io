@@ -6,7 +6,7 @@
   <button on="tap:user-consent.dismiss">I accept</button>
 </amp-user-notification>
 
-<amp-analytics config="https://fathom.munte.me/analytics.json?previousId=CLIENT_ID(fathom-id,,_fathom)" data-consent-notification-id="user-consent">
+<amp-analytics config="https://fathom.munte.me/analytics.json?fathom=CLIENT_ID(fathom-id,,_fathom)&path=CANONICAL_PATH&id=PAGE_VIEW_ID_64" data-consent-notification-id="user-consent">
   <script type="application/json">
     {
       "vars": {
@@ -28,9 +28,7 @@
         "image": true
       },
       "cookies": {
-        "_fathom": {
-          "value": "PAGE_VIEW_ID_64"
-        }
+        "cookieMaxAge": 1800
       }
     }
   </script>
